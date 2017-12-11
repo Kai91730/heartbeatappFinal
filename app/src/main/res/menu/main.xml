@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/action_settings"
+        android:orderInCategory="100"
+        android:title="設定"
+        app:showAsAction="never" />
+    <item android:title="紀錄"
+        android:id="@+id/memorandum_book"
+        android:orderInCategory="101" />
+    <item android:title="BMI"
+        android:id="@+id/bmi"
+        android:orderInCategory="102" />
+    <item
+        android:id="@+id/stepcount"
+        android:orderInCategory="103"
+        android:title="計步器" />
+    <item android:title="離開"
+        android:id="@+id/exit"
+        android:orderInCategory="104" />
+</menu>

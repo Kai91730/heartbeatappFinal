@@ -1,0 +1,74 @@
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="app_name">心率感測APP</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_gallery">意見與回饋</string>
+    <string name="title_activity_tools">關於</string>
+    <string name="title_activity_import">使用說明</string>
+    <string name="title_activity_slideshow">相關資訊</string>
+
+    <string name="book">備忘錄</string>
+    <string name="setting">設定</string>
+    <string name="exit">離開程式</string>
+
+    <string name="text_tvRowCount">(row number/ total rows)</string>
+    <string name="text_Insert">Insert</string>
+    <string name="text_Query">Query</string>
+    <string name="text_Update">Update</string>
+    <string name="text_Delete">Delete</string>
+    <string name="text_TitleSpot">Spots</string>
+    <string name="text_SpotId">ID Number</string>
+    <string name="text_SpotName">Name</string>
+    <string name="text_SpotWeb">Web</string>
+    <string name="text_SpotPhone">Phone</string>
+    <string name="text_SpotAddress">Address</string>
+    <string name="text_Clear">Clear</string>
+    <string name="text_btNext">Next</string>
+    <string name="text_btBack">Back</string>
+    <string name="text_btCancel">Cancel</string>
+    <string name="btTakePicture">Take Picture</string>
+    <string name="btPickPicture">Pick Picture</string>
+
+    <string name="msg_InsertSuccess">新增成功</string>
+    <string name="msg_InsertFail">新增失敗</string>
+    <string name="msg_NameIsInvalid">表格存取無效</string>
+    <string name="msg_NoImage">沒有照片</string>
+    <string name="msg_NoDataFound">沒有任何資料</string>
+    <string name="msg_RowDeleted">筆資料刪除</string>
+    <string name="msg_RowUpdated">資料修改完成</string>
+    <string name="msg_NoCameraAppsFound">找不到拍照軟體!!</string>
+    <string name="text_NotGranted">not granted</string>
+    <string name="text_SpotDetail">Spot Detail</string>
+    <string name="text_NoDataFound">沒有任何資料</string>
+    <string name="title_activity_explain">Explain</string>
+    <string name="title_activity_home">Home</string>
+    <string name="title_activity_suggest">Suggest</string>
+    <string name="title_activity_information">Information</string>
+    <string name="title_activity_about">About</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    //------------------
+    <string name="theme">Theme.Holo.Light</string>
+    <string name="send">傳送</string>
+    <string name="not_connected">存取被拒</string>
+    <string name="bt_not_enabled_leaving">Bluetooth was not enabled. Leaving Bluetooth Chat.</string>
+    <string name="title_connecting">連結中...</string>
+    <string name="title_connected_to"> 連結裝置:<xliff:g id="device_name">%1$s</xliff:g></string>
+    <string name="title_not_connected">連結失敗</string>
+
+    <string name="scanning">正在搜尋裝置...</string>
+    <string name="select_device">請選擇一個裝置連結</string>
+    <string name="none_paired">沒有任何配對裝置</string>
+    <string name="none_found">找不到裝置</string>
+    <string name="title_paired_devices">已配對裝置</string>
+    <string name="title_other_devices">可使用的裝置</string>
+    <string name="button_scan">搜尋裝置</string>
+
+    <string name="secure_connect">藍芽連接</string>
+    //------------------
+
+</resources>

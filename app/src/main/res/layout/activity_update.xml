@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_insert"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FAFFBA"
+    tools:context="com.example.user.heartbeatapp.UpdateActivity">
+
+    <ScrollView
+        android:layout_width="368dp"
+        android:layout_height="495dp"
+        tools:layout_editor_absoluteY="8dp"
+        tools:layout_editor_absoluteX="8dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="98dp">
+
+                <ImageView
+                    android:id="@+id/ivSpot"
+                    android:layout_width="80dp"
+                    android:layout_height="90dp"
+                    app:srcCompat="@drawable/ic_menu_camera" />
+
+            </RelativeLayout>
+
+            <android.support.design.widget.TextInputLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <EditText
+                    android:id="@+id/etName"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="姓名"
+                    android:inputType="text"
+                    android:textColor="#0000FF" />
+            </android.support.design.widget.TextInputLayout>
+
+            <android.support.design.widget.TextInputLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <EditText
+                    android:id="@+id/etWeb"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="日期(YYYY/MM/DD)"
+                    android:inputType="textUri"
+                    android:textColor="#0000FF" />
+            </android.support.design.widget.TextInputLayout>
+
+            <android.support.design.widget.TextInputLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <EditText
+                    android:id="@+id/etPhone"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="電話"
+                    android:inputType="phone"
+                    android:textColor="#0000FF" />
+            </android.support.design.widget.TextInputLayout>
+
+            <android.support.design.widget.TextInputLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <EditText
+                    android:id="@+id/etAddress"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="狀況"
+                    android:inputType="text"
+                    android:textColor="#0000FF" />
+            </android.support.design.widget.TextInputLayout>
+
+            <RelativeLayout
+                android:id="@+id/RelativeLayout1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="3dp">
+
+                <Button
+                    android:id="@+id/btFinishUpdate"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentTop="true"
+                    android:layout_toStartOf="@+id/btCancel"
+                    android:background="@drawable/button_style"
+                    android:onClick="onUpdateClick"
+                    android:text="確認"
+                    android:textSize="18dp" />
+
+                <Button
+                    android:id="@+id/btCancel"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignBaseline="@+id/btFinishUpdate"
+                    android:layout_alignParentEnd="true"
+                    android:layout_alignParentTop="true"
+                    android:onClick="onCancelClick"
+                    android:text="取消"
+                    android:textSize="18dp"
+                    android:background="@drawable/button_style"/>
+
+                <Button
+                    android:id="@+id/btTakePicture"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentTop="true"
+                    android:layout_toLeftOf="@+id/btFinishUpdate"
+                    android:layout_toStartOf="@+id/btFinishUpdate"
+                    android:background="@drawable/button_style"
+                    android:onClick="onTakePictureClick"
+                    android:text="拍照"
+                    android:textSize="18dp" />
+
+
+            </RelativeLayout>
+
+        </LinearLayout>
+    </ScrollView>
+</android.support.constraint.ConstraintLayout>

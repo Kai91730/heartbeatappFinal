@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_step_count"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FAFFBA"
+    tools:context="com.example.user.heartbeatapp.StepCountActivity">
+
+    <TextView
+        android:text="計  步  器"
+        android:textSize="30dp"
+        android:textColor="@color/colorPrimaryDark"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView5"
+        android:layout_marginTop="24dp"
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_marginStart="104dp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        android:layout_marginLeft="104dp" />
+
+    <TextView
+        android:textSize="80dp"
+        android:text="0"
+        android:layout_width="171dp"
+        android:layout_height="127dp"
+        android:id="@+id/tv_step"
+        android:textColor="#DE5347"
+        android:textStyle="bold"
+        app:layout_constraintRight_toRightOf="parent"
+        android:layout_marginTop="80dp"
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_marginEnd="24dp"
+        android:layout_marginRight="24dp" />
+
+    <Button
+        android:text="開始"
+        android:textSize="20dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/btn_start"
+        android:background="@drawable/button_style"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        android:layout_marginBottom="24dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginRight="16dp" />
+
+    <TextView
+        android:text="總步數:"
+        android:textSize="40dp"
+        android:textColor="@color/colorPrimaryDark"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView11"
+        android:layout_marginTop="112dp"
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_marginStart="40dp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        android:layout_marginLeft="40dp" />
+
+    <TextView
+        android:text="請輸入您的步數:"
+        android:textSize="30dp"
+        android:textColor="@color/colorPrimaryDark"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView12"
+        app:layout_constraintLeft_toLeftOf="parent"
+        android:layout_marginTop="80dp"
+        app:layout_constraintTop_toBottomOf="@+id/textView11" />
+
+    <TextView
+        android:text="您上次的步數:"
+        android:textSize="30dp"
+        android:textColor="@color/colorPrimaryDark"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView14"
+        app:layout_constraintLeft_toLeftOf="parent"
+        android:layout_marginTop="64dp"
+        app:layout_constraintTop_toBottomOf="@+id/textView12" />
+
+    <Button
+        android:text="讀取"
+        android:textSize="20dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/btn_read"
+        app:layout_constraintBottom_toBottomOf="parent"
+        android:layout_marginBottom="24dp"
+        android:background="@drawable/button_style"
+        app:layout_constraintRight_toLeftOf="@+id/btn_write" />
+
+    <Button
+        android:text="寫入"
+        android:textSize="20dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/btn_write"
+        android:background="@drawable/button_style"
+        app:layout_constraintRight_toLeftOf="@+id/btn_start"
+        app:layout_constraintBottom_toBottomOf="parent"
+        android:layout_marginBottom="24dp" />
+
+    <Button
+        android:text="刪除"
+        android:textSize="20dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/btn_del"
+        android:background="@drawable/button_style"
+        app:layout_constraintBottom_toBottomOf="parent"
+        android:layout_marginBottom="24dp"
+        app:layout_constraintRight_toLeftOf="@+id/btn_read" />
+
+    <TextView
+        android:textSize="50dp"
+        android:textColor="#DE5347"
+        android:layout_width="125dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/tv_countview"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        android:layout_marginBottom="128dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginRight="16dp" />
+
+    <EditText
+        android:layout_width="116dp"
+        android:layout_height="55dp"
+        android:inputType="number"
+        android:ems="10"
+        android:id="@+id/tv_count"
+        android:layout_marginTop="248dp"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        android:layout_marginEnd="16dp"
+        android:layout_marginRight="16dp" />
+
+
+</android.support.constraint.ConstraintLayout>
+
+
+
+
+
+
+
+
+
