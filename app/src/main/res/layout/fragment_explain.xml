@@ -35,7 +35,7 @@
         android:id="@+id/explain1" />
 
     <TextView
-        android:text="2.請於右上角設定中開啟secure連接"
+        android:text="2.請於右上角設定中開啟藍芽連接"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:textSize="20dp"
@@ -74,7 +74,7 @@
         android:id="@+id/explain4" />
 
     <TextView
-        android:text="5.請將感測器放在手腕上進行量測"
+        android:text="5.請將感測器放在手指上進行量測"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:textSize="20dp"

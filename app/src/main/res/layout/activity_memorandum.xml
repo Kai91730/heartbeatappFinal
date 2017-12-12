@@ -4,24 +4,24 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@drawable/background2"
+    android:background="#dfd2bd"
     tools:context="com.example.user.heartbeatapp.MemorandumActivity">
 
 
     <LinearLayout
-        android:layout_width="312dp"
+        android:layout_width="395dp"
         android:layout_height="368dp"
         android:orientation="vertical"
         tools:ignore="MissingConstraints"
         tools:layout_editor_absoluteX="8dp"
-        tools:layout_editor_absoluteY="8dp">
+        tools:layout_editor_absoluteY="25dp">
 
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_gravity="center_horizontal"
             android:text="     狀況記錄"
-            android:textColor="#1AF999"
+            android:textColor="#6a4a4a"
             android:textSize="25sp" />
 
         <android.support.v7.widget.RecyclerView
@@ -77,8 +77,8 @@
     <TextView
         android:layout_width="370dp"
         android:layout_height="37dp"
-        android:layout_marginBottom="88dp"
-        android:layout_marginStart="4dp"
+        android:layout_marginBottom="84dp"
+        android:layout_marginStart="24dp"
         android:text="*如果任何異常現象，請盡速就醫*"
         android:textColor="#f9222f"
         android:textSize="23dp"

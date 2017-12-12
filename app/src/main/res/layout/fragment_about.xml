@@ -25,21 +25,22 @@
     <ScrollView
         android:layout_width="289dp"
         android:layout_height="399dp"
-        android:layout_marginTop="16dp"
-        app:layout_constraintTop_toBottomOf="@+id/messagetittle"
+        android:layout_marginLeft="16dp"
         android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp"
         app:layout_constraintLeft_toLeftOf="parent"
-        android:layout_marginLeft="16dp">
+        app:layout_constraintTop_toBottomOf="@+id/messagetittle">
 
         <TextView
             android:layout_width="match_parent"
-            android:layout_height="match_parent"
+            android:layout_height="wrap_content"
             android:text="   隨著資訊科技的進步，也帶動起醫療迅速的發展，但較偏遠地區醫療資源還是普遍不發達，加上台灣天氣型態不穩定年長者到了冬天，天氣就會極度寒冷因此可能導致心血管疾病等問題發生
                                                           然而心肌梗塞是一種急性及嚴重性的心臟狀態，其症狀是不同程度的胸痛不適，一般是因為供應血液到心臟的冠狀血管冠狀血管因白血球或脂肪質造成的易損斑塊而堵塞。若能及早發現心肌梗塞及心房顫動等症狀，必定能減少重症的死亡率。
                                                           本研究最終目的主要應用Android 智慧型手機與醫療儀器做結合並且分析心電圖(ECG)的數據，並且達到遠距醫療功能，讓醫生能先簡易判讀病患情況，也能讓病患知道目前的症狀以變尋求對的掛號項目，時間就是生命分秒必爭。"
-            android:textSize="22dp"
             android:textColor="@color/colorPrimaryDark"
-            />
+            android:textSize="22dp"
+            tools:layout_editor_absoluteX="188dp"
+            tools:layout_editor_absoluteY="109dp" />
 
     </ScrollView>
 

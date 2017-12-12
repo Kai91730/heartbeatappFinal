@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#FAFFBA"
+    android:background="#dfd2bd"
     tools:context="com.example.user.heartbeatapp.Memorandum_explain">
 
     <TextView
@@ -13,7 +13,7 @@
         android:layout_marginStart="16dp"
         android:layout_marginTop="16dp"
         android:text="如何新增:"
-        android:textColor="#FFFF00FF"
+        android:textColor="#3f2c2c"
         android:textSize="25dp"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
@@ -59,7 +59,7 @@
         android:layout_marginStart="16dp"
         android:layout_marginTop="192dp"
         android:text="如何修改:"
-        android:textColor="#FFFF00FF"
+        android:textColor="#3f2c2c"
         android:textSize="25dp"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
@@ -92,7 +92,7 @@
         android:layout_marginStart="16dp"
         android:layout_marginTop="332dp"
         android:text="如何刪除:"
-        android:textColor="#FFFF00FF"
+        android:textColor="#3f2c2c"
         android:textSize="25dp"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />

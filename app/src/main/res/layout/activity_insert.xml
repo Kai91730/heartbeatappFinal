@@ -5,7 +5,7 @@
     android:id="@+id/activity_insert"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#FAFFBA"
+    android:background="#dfd2bd"
     tools:context="com.example.user.heartbeatapp.InsertActivity">
 
 

@@ -54,13 +54,16 @@ public class UpdateActivity extends AppCompatActivity {
             return;
         }
         //將取得的景點資訊顯示在各個UI元件上
-        Bitmap bitmap = BitmapFactory.decodeByteArray(spot.getImage(), 0,
-                spot.getImage().length);
-        ivSpot.setImageBitmap(bitmap);
-        etName.setText(spot.getName());
-        etWeb.setText(spot.getWeb());
-        etPhone.setText(spot.getPhone());
-        etAddress.setText(spot.getAddress());
+        if(spot.getImage()!=null) {
+            Bitmap bitmap = BitmapFactory.decodeByteArray(spot.getImage(), 0,
+                    spot.getImage().length);
+            ivSpot.setImageBitmap(bitmap);
+        }
+        if (spot.getName() != null) etName.setText(spot.getName());
+        if (spot.getWeb() != null) etWeb.setText(spot.getWeb());
+        if (spot.getPhone() != null) etPhone.setText(spot.getPhone());
+        if (spot.getAddress() != null) etAddress.setText(spot.getAddress());
+
     }
     //以下onTakePictureClick()及其相關方法的功能同InsertActivity.java
     public void onTakePictureClick(View view) {

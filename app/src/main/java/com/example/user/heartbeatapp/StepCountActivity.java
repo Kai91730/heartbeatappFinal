@@ -78,7 +78,7 @@ public class StepCountActivity extends AppCompatActivity implements View.OnClick
 
     @Override
     public void onSensorChanged(SensorEvent event){
-        double range = 1;
+        double range = 8;
         float[] value = event.values;
         curValue = magnitude(value[0], value[1]);
 
