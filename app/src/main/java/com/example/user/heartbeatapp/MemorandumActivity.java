@@ -186,8 +186,5 @@ public class MemorandumActivity extends AppCompatActivity {
         }
     }
 
-    public void goback(){
-        finish();
-    }
 
 }
