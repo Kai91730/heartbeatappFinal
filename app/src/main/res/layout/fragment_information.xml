@@ -24,7 +24,7 @@
 
     <TextView
         android:autoLink="all"
-        android:text="1.心跳感應器\nhttps://github.com/WorldFamousElectronics/PulseSensor_Amped_Arduino"
+        android:text="1.心跳感應器\nhttps://goo.gl/Xcy99B"
         android:textColor="@color/colorPrimaryDark"
         android:textSize="20dp"
         android:layout_width="344dp"
@@ -38,7 +38,7 @@
 
     <TextView
         android:autoLink="all"
-        android:text="2.https://wingoodharry. wordpress.com/2014/04/15/android-sendreceive-data-with-arduino-using-bluetooth-part-2/"
+        android:text="2.透過藍芽傳輸Arduino數值\nhttps://goo.gl/uCS5Eb"
         android:textColor="@color/colorPrimaryDark"
         android:textSize="20dp"
         android:layout_width="344dp"
@@ -52,7 +52,7 @@
 
     <TextView
         android:autoLink="all"
-        android:text="3.https://developer. android.com/guide/topics/connectivity/bluetooth. html"
+        android:text="3.藍芽API\nhttps://goo.gl/6z11aF"
         android:textColor="@color/colorPrimaryDark"
         android:textSize="20dp"
         android:layout_width="344dp"
@@ -65,32 +65,32 @@
         android:layout_marginLeft="16dp" />
 
     <TextView
+        android:id="@+id/textView6"
+        android:layout_width="wrap_content"
+        android:layout_height="68dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="16dp"
         android:autoLink="all"
-        android:text="4.http://henryallnote.blogspot.tw/2015/10/android-internal-storage.html"
+        android:text="4.Android讀取, 寫入及刪除檔案\nhttps://goo.gl/YMQsBH"
         android:textColor="@color/colorPrimaryDark"
         android:textSize="20dp"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:id="@+id/textView6"
-        android:layout_marginTop="16dp"
-        app:layout_constraintTop_toBottomOf="@+id/textView8"
-        android:layout_marginStart="16dp"
         app:layout_constraintLeft_toLeftOf="parent"
-        android:layout_marginLeft="16dp" />
+        app:layout_constraintTop_toBottomOf="@+id/textView8" />
 
     <TextView
-        android:autoLink="all"
-        android:text="5.傳感器 http://www.runoob.com/w3cnote/android-tutorial-sensor3.html"
-        android:textColor="@color/colorPrimaryDark"
-        android:textSize="20dp"
+        android:id="@+id/textView13"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:id="@+id/textView13"
-        android:layout_marginTop="8dp"
-        app:layout_constraintTop_toBottomOf="@+id/textView6"
+        android:layout_marginLeft="6dp"
         android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp"
+        android:autoLink="all"
+        android:text="5.加速度傳感器\nhttps://goo.gl/pKtGXq"
+        android:textColor="@color/colorPrimaryDark"
+        android:textSize="20dp"
         app:layout_constraintLeft_toLeftOf="parent"
-        android:layout_marginLeft="16dp" />
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView6" />
 
 
 </android.support.constraint.ConstraintLayout>
