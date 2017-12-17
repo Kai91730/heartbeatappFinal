@@ -102,7 +102,7 @@
         android:layout_height="wrap_content"
         android:layout_marginStart="16dp"
         android:layout_marginTop="380dp"
-        android:text="1.主畫面中在刪除項目長按2秒即可刪除"
+        android:text="1.主畫面中在刪除項目長按1秒即可刪除"
         android:textColor="@color/colorPrimaryDark"
         android:textSize="20dp"
         app:layout_constraintStart_toStartOf="parent"

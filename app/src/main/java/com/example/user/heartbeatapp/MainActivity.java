@@ -40,7 +40,7 @@ public class MainActivity extends AppCompatActivity
             @Override
             public void onClick(View view) {
                 Intent emailIntent = new Intent(Intent.ACTION_SENDTO, Uri.fromParts("mailto","s910316910316@gmail.com",null));
-                emailIntent.putExtra(Intent.EXTRA_SUBJECT,"屏東大學 心律感測APP");
+                emailIntent.putExtra(Intent.EXTRA_SUBJECT,"屏東大學 脈波量測APP");
                 emailIntent.putExtra(Intent.EXTRA_TEXT,"請給予您的寶貴建議:");
                 startActivity(Intent.createChooser(emailIntent,"請選擇email..."));
             }

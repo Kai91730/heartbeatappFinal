@@ -23,7 +23,8 @@
         app:layout_constraintTop_toTopOf="parent" />
 
     <TextView
-        android:text="1.https://github.com/WorldFamous ElectronicsPulseSensor_Amped_Arduino."
+        android:autoLink="all"
+        android:text="1.心跳感應器\nhttps://github.com/WorldFamousElectronics/PulseSensor_Amped_Arduino"
         android:textColor="@color/colorPrimaryDark"
         android:textSize="20dp"
         android:layout_width="344dp"
@@ -36,8 +37,8 @@
         android:layout_marginLeft="16dp" />
 
     <TextView
-        android:text="2.https://wingoodharry. wordpress.com/2014/04/15/android-sendreceive-data-with-arduino-using-
-bluetooth-part-2/"
+        android:autoLink="all"
+        android:text="2.https://wingoodharry. wordpress.com/2014/04/15/android-sendreceive-data-with-arduino-using-bluetooth-part-2/"
         android:textColor="@color/colorPrimaryDark"
         android:textSize="20dp"
         android:layout_width="344dp"
@@ -50,6 +51,7 @@ bluetooth-part-2/"
         android:layout_marginLeft="16dp" />
 
     <TextView
+        android:autoLink="all"
         android:text="3.https://developer. android.com/guide/topics/connectivity/bluetooth. html"
         android:textColor="@color/colorPrimaryDark"
         android:textSize="20dp"
@@ -63,6 +65,7 @@ bluetooth-part-2/"
         android:layout_marginLeft="16dp" />
 
     <TextView
+        android:autoLink="all"
         android:text="4.http://henryallnote.blogspot.tw/2015/10/android-internal-storage.html"
         android:textColor="@color/colorPrimaryDark"
         android:textSize="20dp"
@@ -76,7 +79,8 @@ bluetooth-part-2/"
         android:layout_marginLeft="16dp" />
 
     <TextView
-        android:text="5.http://www.runoob.com/w3cnote/android-tutorial-sensor3.html"
+        android:autoLink="all"
+        android:text="5.傳感器 http://www.runoob.com/w3cnote/android-tutorial-sensor3.html"
         android:textColor="@color/colorPrimaryDark"
         android:textSize="20dp"
         android:layout_width="wrap_content"

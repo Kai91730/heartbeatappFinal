@@ -9,8 +9,9 @@
 
 
     <LinearLayout
-        android:layout_width="395dp"
-        android:layout_height="368dp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginBottom="140dp"
         android:orientation="vertical"
         tools:ignore="MissingConstraints"
         tools:layout_editor_absoluteX="8dp"
@@ -19,8 +20,9 @@
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
             android:layout_gravity="center_horizontal"
-            android:text="     狀況記錄"
+            android:text="  狀 況 記 錄"
             android:textColor="#6a4a4a"
             android:textSize="25sp" />
 
@@ -60,10 +62,10 @@
         android:onClick="insert" />
 
     <TextView
-        android:layout_width="370dp"
-        android:layout_height="37dp"
-        android:layout_marginBottom="84dp"
-        android:layout_marginStart="24dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="80dp"
+        android:layout_gravity="center"
         android:text="*如果任何異常現象，請盡速就醫*"
         android:textColor="#f9222f"
         android:textSize="23dp"
